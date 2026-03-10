@@ -132,8 +132,8 @@ Built by **Team VeriSimilar** — © 2025
 |------|--------|
 | S. Sanjay Siva | [@SanjaySiva-2437](https://github.com/SanjaySiva-2437) |
 | Sanchai KB | — | [@KBSanchai](https://github.com/KBSanchai) |
-| Sanjay Kumar | — | [@Sanjay1717KSK](https://github.com/Sanjay1712KSK) |
-| Sarvesh Sathyanarayanan | — | [@chintu1010](https://github.com/chintu101) |
+| Sanjay Kumar | — | [@Sanjay1712KSK](https://github.com/Sanjay1712KSK) |
+| Sarvesh Sathyanarayanan | — | [@chintu101](https://github.com/chintu101) |
 
 > Add your teammates' GitHub handles and update the links above.
 
