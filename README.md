@@ -38,9 +38,9 @@ The platform addresses a real gap: breed identification in India is manual, expe
   </tr>
 </table>
 
-> 📹 **[Watch Demo Video](#)** — *(link coming soon)*
+> 📹 **[Watch Demo Video](https://drive.google.com/file/d/1-cXiEN8BT-1vdZJgJdPXBB815iFAY_SA/view?usp=drive_link)** 
 
-> 📲 **[Download Android APK](#)** — Enable *"Install from unknown sources"* before installing.
+> 📲 **[Download Android APK](https://github.com/SanjaySiva-2437/CattleGo/releases/download/CattleGo-v1.0.0/CattleGo-APK.Release.--.apk)** — Enable *"Install from unknown sources"* before installing.
 
 ---
 
@@ -73,9 +73,9 @@ The platform addresses a real gap: breed identification in India is manual, expe
 
 | Module | Description | Docs |
 |--------|-------------|------|
-| [`mobile-app/`](mobile-app/README.md) | Flutter app — UI, Firebase auth, camera integration, multilingual support | [README →](mobile-app/README.md) |
-| [`ml-model/`](ml-model/README.md) | MobileNetV2 training pipeline, 4-stage fine-tuning, evaluation | [README →](ml-model/README.md) |
-| [`rag-chatbot/`](rag-chatbot/README.md) | Fully local RAG system — LangChain, Chroma, Ollama, FastAPI | [README →](rag-chatbot/README.md) |
+| [`mobile-app/`](mobile-app) | Flutter app — UI, Firebase auth, camera integration, multilingual support | [README →](mobile-app/README.md) |
+| [`ml-model/`](ml-model) | MobileNetV2 training pipeline, 4-stage fine-tuning, evaluation | [README →](ml-model/README.md) |
+| [`rag-chatbot/`](rag-chatbot) | Fully local RAG system — LangChain, Chroma, Ollama, FastAPI | [README →](rag-chatbot/README.md) |
 
 ---
 
@@ -131,9 +131,9 @@ Built by **Team VeriSimilar** — © 2025
 | Name | GitHub |
 |------|--------|
 | S. Sanjay Siva | [@SanjaySiva-2437](https://github.com/SanjaySiva-2437) |
-| Sanchai KB | — |
-| Sanjay Kumar | — |
-| Sarvesh Sathyanarayanan | — |
+| Sanchai KB | — | [@KBSanchai](https://github.com/KBSanchai) |
+| Sanjay Kumar | — | [@Sanjay1717KSK](https://github.com/Sanjay1712KSK) |
+| Sarvesh Sathyanarayanan | — | [@chintu1010](https://github.com/chintu101) |
 
 > Add your teammates' GitHub handles and update the links above.
 
