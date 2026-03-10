@@ -71,10 +71,9 @@ Typical dataset characteristics:
 
 ### Example Dataset Samples
 
-*(Insert dataset sample images here)*
 
-![Dataset Sample 1](ml-model/images/dataset_samples/gir.jpg)
-![Dataset Sample 2](ml-model/images/dataset_samples/murrah_buffalo..jpg)
+![Dataset Sample 1](images/dataset_samples/gir.jpg)
+![Dataset Sample 2](images/dataset_samples/murrah_buffalo.jpg)
 
 ---
 
