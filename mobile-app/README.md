@@ -1,4 +1,4 @@
-# 📱 CattleGo — Mobile App
+# CattleGo — Mobile App
 
 > Cross-platform Flutter application for AI-powered Indian cattle breed identification, RAG-based livestock assistance, and multilingual farmer support.
 
@@ -20,25 +20,25 @@ The app communicates with a FastAPI backend (serving the MobileNetV2 classificat
 
 ## Features
 
-### 🧠 AI Breed Classification
+### AI Breed Classification
 - Real-time detection via live camera feed
 - Photo upload mode for offline-captured images
 - Displays predicted breed name and confidence score
 - Powered by a MobileNetV2 model served over FastAPI
 
-### 💬 RAG Chatbot
+### RAG Chatbot
 - Natural language Q&A for breed info, milk yields, and livestock guidance
 - Context-aware responses grounded in curated breed documentation
 - Integrated directly into the app UI
 
-### 🔐 Authentication
+### Authentication
 - Firebase Authentication — secure email/password login and registration
 
-### 🌐 Multilingual Support
+### Multilingual Support
 - Full UI available in **English**, **Tamil**, and **Hindi**
 - Configured via `l10n.yaml` with ARB-based localization
 
-### 📋 Breed Encyclopedia
+### Breed Encyclopedia
 - Browsable breed list with detailed info pages
 - Sourced from the RAG knowledge base
 
