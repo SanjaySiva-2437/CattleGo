@@ -69,12 +69,12 @@ Stage 4 → Full network fine-tune               (minimal LR, early stopping)
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="images/training_images/stage1_training.png" width="100%"/>
+      <img src="images/training/stage1_training.png" width="100%"/>
       <br/>
       <sub><b>Stage 1:</b> Head-only training. Clear train/val gap — expected. Base features not yet adapted to cattle domain.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="images/training_images/stage2_training.png" width="100%"/>
+      <img src="images/training/stage2_training.png" width="100%"/>
       <br/>
       <sub><b>Stage 2:</b> Top blocks unfrozen. Overfitting reduces; val loss stabilizes. Generalization begins.</sub>
     </td>
@@ -88,12 +88,12 @@ Stage 4 → Full network fine-tune               (minimal LR, early stopping)
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="images/training_images/stage3_training.png" width="100%"/>
+      <img src="images/training/stage3_training.png" width="100%"/>
       <br/>
       <sub><b>Stage 3:</b> Deeper layers unfrozen. Train accuracy ~90%; val climbing. Loss curves converging cleanly.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="images/training_images/stage4_training.png" width="100%"/>
+      <img src="images/training/stage4_training.png" width="100%"/>
       <br/>
       <sub><b>Stage 4:</b> Full network fine-tune. Model plateaus; overfitting minimized. Best checkpoint saved here.</sub>
     </td>
@@ -116,7 +116,7 @@ Stage 4 → Full network fine-tune               (minimal LR, early stopping)
 ### Confusion Matrix
 
 <p align="center">
-  <img src="images/training_images/confusion_matrix.png" width="85%"/>
+  <img src="images/training/confusion_matrix.png" width="85%"/>
   <br/>
   <sub>Diagonal dominance indicates correct predictions. Off-diagonal clusters highlight visually similar breed pairs that warrant additional training data.</sub>
 </p>
@@ -159,7 +159,9 @@ ml-model/
 │   └── data_prep/                 # Dataset preprocessing scripts
 ├── evaluation/
 │   └── Graphs/                    # Confusion matrix and evaluation plots
-├── images/                        # Training curve images for README
+├── images/
+│   ├── training/                  # Stage-wise training curves 
+│   └── dataset_samples/           # Example breed images per class
 ├── inference/                     # Inference pipeline + API integration
 ├── training/
 │   └── Fine_Tune/                 # Stage-wise fine-tuning scripts
